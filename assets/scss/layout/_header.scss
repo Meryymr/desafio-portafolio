@@ -1,0 +1,17 @@
+.header {
+    &__presentation-image {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding-left: 80px;
+
+    }
+
+    &__presentation-title {
+        color: $custom-title;
+    }
+
+    &__presentation-subtitle {
+        color: $custom-subtitle;
+    }
+}

@@ -1,0 +1,15 @@
+// Create your own map
+$custom-colors: (
+  "custom-primary": #900,
+  "custom-secondary": rgb(113, 110, 110),
+  "custom-peach": #EFBC9B,
+  "custom-adl":$adl,
+  "custom-background": #fbfff7,
+  "custom-title": #114232,
+  "custom-subtitle": #1e6e53,
+  "custom-button": #529f85,
+  "custom-footer" #42834e,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
